@@ -4,8 +4,10 @@ Configuration file for face detection.
 from pathlib import Path
 
 # Path to the face detection model
-FACE_DETECTION_MODEL_PATH = Path("models/face_detection.xml")
-IMAGE_PATH = Path("data/face.jpg")
+
+PROJECT_PATH = Path(__file__).resolve().parents[2]
+
+IMAGE_PATH = str(PROJECT_PATH / "data/face.jpg")
 GRAY = False
 SAVE = False
-OUTPUT_PATH = Path("output/face_detection.jpg")
+OUTPUT_PATH = str(PROJECT_PATH / "output/face_detection.jpg")

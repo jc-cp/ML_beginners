@@ -5,7 +5,7 @@ This repo is a compilation of real-world ML applications for beginners in Python
 ### ML Analysis
 
 ### ML Detection
-- Face Detection
+- Face Detection: Requirement add a .jpg image to the _data_ folder. 
 
 ### ML Prediction
 
